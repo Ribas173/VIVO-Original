@@ -85,7 +85,7 @@ try {
     $logs[] = "Tabela 'pedidos' verificada/criada com sucesso";
 
     // Pegar valor dinâmico da URL
-    $valor = isset($_GET['valor']) ? intval($_GET['valor']) : 6783; // Valor padrão de 6783 centavos se não for especificado
+    $valor = isset($_GET['valor']) ? intval($_GET['valor']) : 6200; // Valor padrão de 6783 centavos se não for especificado
     $logs[] = "Valor obtido da URL: $valor centavos";
     
     $valor_centavos = $valor;
